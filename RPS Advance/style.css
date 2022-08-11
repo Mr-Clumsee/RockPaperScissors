@@ -1,1 +1,106 @@
 
+body {
+    background-color: rgb(68, 23, 75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    color: rgb(68, 23, 75);
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.score-board{
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    margin: 30px auto;
+    color:  rgb(78, 222, 136);
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.badge{
+    background-color: rgb(78, 222, 136);
+    font-size: 14px;
+}
+
+#user-label{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 35px;
+    left: 16px;
+}
+#computer-label{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 35px;
+    right: 19px;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices{
+    text-align: center;
+    margin: 15px auto;
+}
+
+.choice{
+    color: rgb(78, 222, 136);
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background:rgb(137, 58, 149);
+}
+
+#action-message{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
